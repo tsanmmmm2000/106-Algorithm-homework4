@@ -1,4 +1,4 @@
 dd.o: dd.c
 	gcc -c dd.c
-dd: as.o
+dd: dd.o
 	gcc dd.o -o dd
